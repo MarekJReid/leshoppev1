@@ -1,19 +1,16 @@
 import React, { useState, useEffect, useRef } from "react"
-import { graphql, Link, useStaticQuery, withPrefix } from "gatsby"
 import styled from "styled-components"
-import { padding } from "../../../styled-components/variables"
-import Img from "gatsby-image"
-import ImageSlider from "./ImageSlider"
 
-import { Helmet } from "react-helmet"
-import FooterLogoSlider from "./ImageSlider"
+import Img from "gatsby-image"
+
 import FooterSlider from "./footerSlider"
+import LogoSliderNew from "./LogoSlider"
 const LogoFooter = () => {
   const [slideLive, setSlideLive] = useState(10)
 
   return (
     <LogoFooterContainer>
-      <FooterSlider />
+      <LogoSliderNew />
     </LogoFooterContainer>
   )
 }

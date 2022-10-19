@@ -1,11 +1,11 @@
 import React from 'react'
-import styled, { keyframes }  from 'styled-components'
-import Logos from './Logos'
+
+import LogoSliderNew from './LogoSlider'
 const FooterSlider = ({logos}) => {
  
     return (
         <div>
-            <Logos/>
+            <LogoSliderNew/>
         </div>
     )
 }
